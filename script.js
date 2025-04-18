@@ -1,0 +1,1 @@
+fetch(`${servidor}/uploads/${temporada}/`)
