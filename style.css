@@ -1,0 +1,126 @@
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #3498db;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+input[type="text"], select {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#fileList, #downloadList, #episodeList {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.episode-item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.episode-item button {
+  margin: 5px;
+}
+
+#uploadSection {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#drop-area {
+  border: 2px dashed #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#drop-area.dragover {
+  background-color: #ecf0f1;
+}
+
+#progress-bar {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+#progress-text {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* Menu de navegação */
+nav {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
